@@ -5,9 +5,17 @@
   "main": "lib/server.js",
   "author": "timbakkum@gmail.com",
   "license": "MIT",
+  "scripts": {
+    "dev": "pm2 start lib/server.js --watch"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.7.0"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "pm2": "^2.10.1"
   }
 }
