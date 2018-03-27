@@ -4,6 +4,7 @@
   "description": "A great app for displaying and favoriting random Chuck Norris Jokes",
   "main": "lib/server.js",
   "author": "timbakkum@gmail.com",
+  "repository": "https://github.com/Und3Rdo9/cn-joke-app",
   "license": "MIT",
   "scripts": {
     "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
