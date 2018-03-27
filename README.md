@@ -1,4 +1,4 @@
-# Chuck Norris Joke App - A roundhouse kick in the face
+# Chuck Norris Joke App - An Ass-kicking App
 
 ## Get started
 
@@ -15,10 +15,12 @@ proceed to open http://localhost:8080
 - Reload the page by accident and find your content is persisted through localStorage
 - Have fun!
 
+### What:
+- a React Redux application using chuck norris joke API: http://api.icndb.com/
+
 ## TO-DO:
 - Hot reloading & auto open browser,
+- Production build scripts,
 - Comments,
 - Tests,
-- Styles,
-- UI messages,
 - Various refactors
