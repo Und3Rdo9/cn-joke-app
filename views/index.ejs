@@ -7,6 +7,34 @@
     <title>Chuck Norris Joke Application</title>
   </head>
   <body>
+    <style>
+      .chuck-grid {
+        display: grid;
+        grid-template-areas:
+          "header header"
+          "feed favorites"
+          "footer footer";
+        grid-column-gap: 50px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+      }
+
+      .chuck-grid__header {
+        grid-area: header;
+      }
+
+      .chuck-grid__feed {
+        grid-area: feed;
+      }
+
+      .chuck-grid__favorites {
+        grid-area: favorites;
+      }
+
+      .chuck-grid__footer {
+        grid-area: footer;
+      }
+    </style>
     <div id="root">
       Chuck's getting everything ready, hold on...
     </div>
