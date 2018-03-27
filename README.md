@@ -1,4 +1,4 @@
-# Chuck Norris Joke App - A roundhouse kick in the face
+# Chuck Norris Joke App - An Ass-kicking App
 
 ## Get started
 
