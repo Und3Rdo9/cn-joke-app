@@ -2,7 +2,7 @@
 
 ## Get started
 
-```npm install && npm run dev && npm webpack```
+```npm install && npm run dev && npm run webpack```
 
 proceed to open http://localhost:8080
 
