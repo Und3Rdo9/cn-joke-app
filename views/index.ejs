@@ -15,6 +15,10 @@
         line-height: 1.5;
       }
 
+      .text-center {
+        text-align: center;
+      }
+
       .chuck-grid {
         display: grid;
         grid-template-areas:
@@ -79,11 +83,57 @@
         outline: none;
         align-self: center;
         margin-right: 10px;
+        cursor: pointer;
       }
 
       .joke__add-icon--added {
-        fill: red;
         stroke: red;
+        cursor: not-allowed;
+      }
+
+      .section-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .section-header__image {
+        height: 100px;
+        width: auto;
+        margin-right: 20px;
+      }
+
+      .section-header__title {
+        margin: 0;
+      }
+
+      .button-group {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .button-group .button {
+        margin: 10px;
+      }
+
+      .button {
+        box-shadow: none;
+        outline: none;
+        appearance: none;
+        border: 1px solid blue;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 20px;
+        background: transparent;
+        cursor: pointer;
+      }
+
+      .button[disabled] {
+        border-color: grey;
+        background: grey;
+        cursor: not-allowed;
       }
     </style>
     <div id="root">
