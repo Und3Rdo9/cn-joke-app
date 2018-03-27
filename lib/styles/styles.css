@@ -4,6 +4,11 @@ html {
   line-height: 1.5;
 }
 
+.center-block {
+  display: table;
+  margin: 0 auto;
+}
+
 .text-center {
   text-align: center;
 }
